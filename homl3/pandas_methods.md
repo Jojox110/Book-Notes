@@ -40,6 +40,15 @@ plt.show() (plt is from import matploblib.pyplot as plt)
 ## df.corr()
 Calculates the correlations between each columns (aka categories)
 
+## df.drop()
+Creates a copy of the dataframe and removes the index (axis=0) or the column (axis=1) on the attribute given
+
+## df.dropna()
+Removes missing values
+
+## df.fillna()
+Fills missing values with the specified method
+
 # Pandas.plotting methods
 
 ## scatter_matrix
