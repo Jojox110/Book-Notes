@@ -49,6 +49,11 @@ Removes missing values
 ## df.fillna()
 Fills missing values with the specified method
 
+# Series methods
+
+## series.to_frame()
+Convert series to dataframe
+
 # Pandas.plotting methods
 
 ## scatter_matrix
@@ -57,5 +62,5 @@ Makes a matrix of scatter graphs. See p.64 for example
 # Pandas Data Selecting Methods
 
 ## select_dtypes
-DataFrame.select_dtypes(includes=[list_of_dtypes])
-ex: DataFrame.select_dtypes(includes=[np.number])
+DataFrame.select_dtypes(include=[list_of_dtypes])
+ex: DataFrame.select_dtypes(include=[np.number])
